@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather:wght@400;700&display=swap');
+:root{
+    --barber-primary: #f2a365;
+    --barber-primary-accent: #29;
+    --barber-secondary: #293B44;
+    --barber-secondary-accent: #C4C4C4;
+    --barber-secondary-alt: #1C2027;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+h1, h2{
+    font-size: 64px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: var(--barber-primary);
+}
+
+h4{
+    font-size: 16px;
+    font-family:  'Merriweather', serif !important;
+    font-weight: normal;
+    
+
+}
+
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #222831;
+}
+
+.navbar-bg{
+    background: rgba(0, 0, 0, 0.53);
+    color: #E5E5E5 ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+@media(max-width: 910px){
+    .navbar-bg{
+        position: absolute;
+    }
+
+    .navbar-toggler{
+        background-color: #fff !important;
+    }
+}
+
+.nav-link{
+    color: #E5E5E5 !important;
+}
+
+.lead-text h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.nav-link:hover{
+    color:  #f2a365 !important;
+}
+.active a.nav-link{
+    color: var(--barber-primary) !important;
+}
+
+.img-logo{
+    background-color: var(--barber-primary) ;
+}
+.header{
+    position: relative;
+    left: 0;
+    z-index: 4;
+    /* box-shadow: 0px 6px 6px 0px rgba(213,213,213,0.6); */
+}
+
+.cover-area{
+    height: 100vh;
+    min-height: 911px;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+ 
+    background-image: linear-gradient(360deg, rgba(1, 1, 1, 0.81) 27.46%, rgba(1, 1, 1, 0.47) 50%), url('../images/mostafa-meraji-FQlEeKnggUI-unsplash.jpg');
+    
+}
+
+.lead-con {
+    /* height: 100vh; */
+    position: relative;
+    top: 35%;
+}
+
+.btn-hire{
+    border: 2px solid #F2A365;
+    padding: .75rem 2rem;
+    background: transparent;
+    color: #f2a365;
+    border-radius: 1px;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Merriweather' serif;
+}
+
+.hire{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.hero-text h2{
+    font-family: 'Merriweather', serif;
+    color: #f2a365;
+    font-size: 44px;
+}
+
+h4{
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.imagebox{
+    height: auto;
+    width: 332px;
+ 
+}
+
+.imagebox-mid{
+    height: 255px;
+    width: 332px;
+    border: 2px solid #c4c4c4;
+}
+.img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
+}
+
+figcaption{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+}
+
+.achievements{
+    background-image: linear-gradient(90deg, rgba(1, 1, 1, 0.81) 27.46%, rgba(1, 1, 1, 0.47) 50%), url('../images/vahid-kanani-9spmkkJ8aeE-unsplash\ 1.png');
+    background-size: cover;
+    min-height: 556px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-attachment: fixed;
+}
+
+.achievements p{
+    font-size: 16px;
+    line-height: 1.5rem;
+
+    word-wrap: normal;
+    color: #e5e5e5;
+}
+
+.scissors{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-end;
+}
+
+.count{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #F2A365 !important;
+}
+.cap{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E5E5E5;
+    margin-top: -1rem;
+}
+
+.align{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 0;
+}
+
+.mini{
+    max-height: 416px;
+    background: #1C2027;
+    width: 100%;
+}
+
+.mt-5{
+    margin-top: 5rem !important;
+}
+.mb-5{
+    margin-bottom: 5rem !important;
+}
+
+.mt-4{
+    margin-top: 4rem !important;
+}
+
+.mb-4{
+    margin-bottom: 4rem !important;
+}
+
+#man-thinking{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+.mini p{
+    font-size: 14px;
+}
+.mini hr{
+    background: #F2A365;
+    border: 6px solid #F2A365;
+    position: absolute;
+    left: 93%;
+    width: 10rem;
+    top: 5rem;
+}
+
+.reason{
+    display: grid;
+    place-content: center;
+}
+
+.quotes{
+    margin: 0;
+    margin-left: auto;
+}
+
+.ali{
+    display: flex;
+    /* justify-content: space-around; */
+    /* width: 90%; */
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.flickity-page-dots .dot{
+    background-color: #ffffff !important;
+}
+.flickity-page-dots{
+    text-align: right;
+}
+
+.flickity-page-dots .dot {
+    border-radius: 1px;
+    width: 30px;
+}
+.flickity-page-dots .dot.is-selected{
+    width: 96px !important;
+}
+.flickity-prev-next-button.previous, .flickity-prev-next-button.next{
+    display: none;
+}
+.flickity-viewport{
+    min-height: 496px !important;
+    height: 80vh !important ;
+}
+
+.available{
+    padding-bottom: 3rem; padding-top: 3rem;
+   
+    background-image: url('../images/alwin-kroon-pszyJeq6DFs-unsplash\ 3\ \(1\).png');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 515px;
+
+}
+
+.form-control {
+    background: #E5E5E5 !important;
+    border: 2px solid #C4C4C4 !important;
+    box-sizing: border-box;
+    height: 66px;
+    border-radius: 1px !important;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+img.align-img{
+    position: absolute;
+    left: 14.9rem;
+    top: 2.6rem;
+    height: 18px;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.clipper{
+    position: relative;
+    top: -3rem;
+}
+
+#pointer {
+    transform-origin: center 59%;
+    display: block;
+    margin: 0 auto;
+    touch-action: none;
+  }
+.booknow{
+    display: grid;
+    place-content: center;
+}
+
+.hr-line{
+    border: 2px solid #C4C4C4;
+}
+
+.btn-hire:hover{
+    color: var(--barber-primary);
+    opacity: .7;
+}
